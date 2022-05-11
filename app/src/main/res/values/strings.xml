@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">thProj</string>
+    <string name="str_start">Food for Everyone</string>
+    <string name="btnstart">Get starteed</string>
+    <string name="login">Login</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="inputlog">Login</string>
+    <string name="forgotpass">Forgot passcode?</string>
+
+
+</resources>
