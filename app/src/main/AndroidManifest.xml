@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ThProj">
         <activity
+            android:name=".bottomActivity"
+            android:exported="true"
+            android:label="@string/title_activity_bottom" />
+        <activity
             android:name=".foodActivity"
             android:exported="true" />
         <activity

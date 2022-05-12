@@ -27,14 +27,14 @@ class logoutActivity : AppCompatActivity()
 
     fun next (view: View)
     {
-            if (email.text.toString().isNotEmpty() && pass.text.toString()
+         /*   if (email.text.toString().isNotEmpty() && pass.text.toString()
                 .isNotEmpty() && Patterns.EMAIL_ADDRESS.matcher(email.text).matches())
 
         {
-            val intent = Intent(this, foodActivity::class.java)
+     */       val intent = Intent(this, bottomActivity::class.java)
             startActivity(intent)
         }
-
+/*
             else
 
             {
@@ -46,7 +46,10 @@ class logoutActivity : AppCompatActivity()
                     .show()
             }
     }
+*/
+
 }
+
 
 
 
